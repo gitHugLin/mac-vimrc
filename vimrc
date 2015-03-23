@@ -109,6 +109,7 @@ Plugin 'terryma/vim-expand-region'
 Bundle "myusuf3/numbers.vim"
 Bundle 'yonchu/accelerated-smooth-scroll'
 Bundle 'scrooloose/nerdcommenter'
+Plugin 'rking/ag.vim'
 " Git plugin not hosted on GitHub
 
 
