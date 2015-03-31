@@ -1,8 +1,25 @@
 set shell=/usr/local/bin/zsh
 colorscheme Tomorrow-Night-Eighties
 
-"Note:设置复制到用系统黏贴板
+" 定义快捷键的前缀，即<Leader>
+let mapleader=";"
+
+" Note:设置复制到用系统黏贴板
 set clipboard=unnamed
+
+" 设置快捷键将选中文本块复制至系统剪贴板
+vnoremap <Leader>y "+y
+" 设置快捷键将系统剪贴板内容粘贴至 vim
+nmap <Leader>p "+p
+" 定义快捷键关闭当前分割窗口
+nmap <Leader>q :q<CR>
+" 定义快捷键保存当前窗口内容
+nmap <Leader>w :w<CR>
+" 定义快捷键保存所有窗口内容并退出 vim
+nmap <Leader>WQ :wa<CR>:q<CR>
+" 不做任何保存，直接退出 vim
+nmap <Leader>Q :qa!<CR>
+
 "关闭vi的一致性模式 避免以前版本的一些Bug和局限
 set nocompatible
 "配置backspace键工作方式
