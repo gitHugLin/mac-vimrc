@@ -51,10 +51,6 @@ set history=1000
 set nobackup
 set noswapfile
 
-"突出现实当前行列
-"set cursorline
-"set cursorcolumn
-
 "设置匹配模式 类似当输入一个左括号时会匹配相应的那个右括号
 set showmatch
 
@@ -124,7 +120,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'AutoClose'
 Plugin 'terryma/vim-expand-region'
 Bundle "myusuf3/numbers.vim"
-Bundle 'yonchu/accelerated-smooth-scroll'
+" Bundle 'yonchu/accelerated-smooth-scroll'
 Bundle 'scrooloose/nerdcommenter'
 Plugin 'rking/ag.vim'
 " Git plugin not hosted on GitHub
